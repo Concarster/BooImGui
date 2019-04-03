@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{DBC7D3B0-C769-FE86-B024-12DB9C6585D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Events">
+      <UniqueIdentifier>{5FAFB439-CB6F-3070-94AA-79ED002A754C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ImGui">
+      <UniqueIdentifier>{45756795-31D8-F639-DA5D-2FF0C69FC2BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Layers">
+      <UniqueIdentifier>{3A9A9748-A65A-137F-6F95-5CFCDB14585B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Platform">
+      <UniqueIdentifier>{8F0ABC95-FB95-295A-04A7-AC4E70B1855A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Platform\OpenGL">
+      <UniqueIdentifier>{E35CAFB7-CF56-D809-B8C3-6E1AA45C3E76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Platform\Windows">
+      <UniqueIdentifier>{C9D3B605-350B-FF9C-3E15-63C0AACB2596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Util">
+      <UniqueIdentifier>{0800A561-74B5-1D57-FDA9-172E695E145B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Define.h" />
+    <ClInclude Include="src\Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\AppEvent.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\Event.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\KeyEvent.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Events\MouseEvent.h">
+      <Filter>Engine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\ImGui\ImGuiLayer.h">
+      <Filter>Engine\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\InputMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Layers\Layer.h">
+      <Filter>Engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Layers\LayerStack.h">
+      <Filter>Engine\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Platform\OpenGL\ImGuiOpenGLRenderer.h">
+      <Filter>Engine\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Platform\Windows\WInputMgr.h">
+      <Filter>Engine\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Platform\Windows\Wwindow.h">
+      <Filter>Engine\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Util\ApiCode.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Util\Log.h">
+      <Filter>Engine\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ForClient.h" />
+    <ClInclude Include="src\Main.h" />
+    <ClInclude Include="src\booPCH.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\ImGui\ImGuiLayer.cpp">
+      <Filter>Engine\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Layers\Layer.cpp">
+      <Filter>Engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Layers\LayerStack.cpp">
+      <Filter>Engine\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Platform\OpenGL\ImGuiOpenGLRenderer.cpp">
+      <Filter>Engine\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Platform\Windows\WInputMgr.cpp">
+      <Filter>Engine\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Platform\Windows\Wwindow.cpp">
+      <Filter>Engine\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Util\Log.cpp">
+      <Filter>Engine\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\booPCH.cpp" />
+  </ItemGroup>
+</Project>

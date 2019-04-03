@@ -1,0 +1,21 @@
+[submodule "Mods/GLFW"]
+	path = Mods/GLFW
+	url = https://github.com/glfw/glfw
+[submodule "Mods/imgui"]
+	path = Mods/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "Mods/glad"]
+	path = Mods/glad
+	url = https://github.com/Dav1dde/glad
+[submodule "Mods/SOIL2"]
+	path = Mods/SOIL2
+	url = https://github.com/alelievr/SOIL2
+[submodule "Mods/glm"]
+	path = Mods/glm
+	url = https://github.com/g-truc/glm
+[submodule "Mods/spdlog"]
+	path = Mods/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Mods/GSL"]
+	path = Mods/GSL
+	url = https://github.com/Microsoft/GSL

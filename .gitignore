@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# Directories
+.vs/
+bin/
+bint/
+BK/
+
+# Files
+*.user
+*.gitignore
+
+# Comfigurations
+*.ini
+*.bat
